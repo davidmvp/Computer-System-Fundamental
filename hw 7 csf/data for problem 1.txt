@@ -1,0 +1,1 @@
+If we just do gcc matrix.c when compiling, the order we apply the indices will not change the performance of our program.  That is because compiler does maximum optimization, we will always be able to get value 107 from cache somewhere.  
